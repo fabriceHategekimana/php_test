@@ -11,3 +11,11 @@ function remove(string $s): string {
   return preg_replace('/!$/', "", $s);
 }
 
+function square_area($A): float {
+return round(pow((2 * $A) / M_PI, 2), 2);
+}
+
+function oddCount($n) {
+  return intdiv($n, 2);
+}
+
